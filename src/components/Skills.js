@@ -39,7 +39,7 @@ const Skills = () => {
             
                 <div class="flex justify-evenly">
                         {/* HTML Skill */}
-                        <div class="relative w-14 h-14">
+                        <div class="relative w-14 h-14 ">
                             <p class="text-xs text-center pb-2 font-semibold font-varela text-gray-600">HTML</p>
                             <svg class="w-full h-full" viewBox="0 0 100 100">
                             <circle
@@ -176,7 +176,7 @@ const Skills = () => {
                         </div>
 
                         {/* React Skill */}
-                        <div class="relative w-14 h-14">
+                        <div class="relative w-14 h-14 hover:animate-pulse">
                             <p class="text-xs text-center pb-2 font-semibold font-varela text-gray-600">React</p>
                             <svg class="w-full h-full" viewBox="0 0 100 100">
                             <circle

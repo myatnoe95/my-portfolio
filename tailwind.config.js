@@ -24,30 +24,31 @@ module.exports = {
         'varela': ['Varela Round', 'sans-serif'],
       },
       animation: {
-        'progress-animation': 'progress-animation 2s linear forwards',
-        'progress-animation50': 'progress-animation 2s linear forwards',
-        'progress-animation65': 'progress-animation 2s linear forwards',
-        'progress-animation80': 'progress-animation 2s linear forwards',
+        'progress-animation': 'progress-animation 3s linear forwards',
+        'progress-animation50': 'progress-animation50 3s linear forwards',
+        'progress-animation65': 'progress-animation65 3s linear forwards',
+        'progress-animation80': 'progress-animation80 3s linear forwards',
+
       },
       keyframes: {
         'progress-animation50': {
           to: {
-            strokeDashoffset: '-300',
+            strokeDashoffset: '-400',
           },
         },
         'progress-animation65': {
           to: {
-            strokeDashoffset: '-360',
+            strokeDashoffset: '-405',
           },
         },
         'progress-animation': {
           to: {
-            strokeDashoffset: '-400',
+            strokeDashoffset: '-420',
           },
         },
         'progress-animation80': {
           to: {
-            strokeDashoffset: '-440',
+            strokeDashoffset: '-430',
           },
         },
       },

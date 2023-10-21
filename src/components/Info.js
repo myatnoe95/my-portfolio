@@ -40,7 +40,7 @@ const Info = () => {
                 </div>
         
                 <div class="col-span-1 self-center p-10">
-                    <h3 class="text-2xl font-bold font-sourceCodePro text-gray-600">:/HELLO;</h3>
+                    <h3 class="text-2xl font-bold font-sourceCodePro text-gray-600 animate-bounce">:/HELLO;</h3>
                     <p class="py-8 font-varela font-medium text-gray-600">MY NAME IS MYAT NOE KYI PHYU <span class="italic font-varela text-pink-400">(KHING SUN THWE)</span>.</p>
                     <p class="font-varela font-medium text-gray-600">
                         I'm  working as a Web Developer & Mobile Developer based in Bangkok, 
@@ -54,7 +54,8 @@ const Info = () => {
                             border-pink-500 border-opacity-10
                             shadow-inner shadow-zinc-100/80
                             my-8 w-36 p-2 text-white font-varela text-sm 
-                            rounded-md  text-base font-medium"
+                            rounded-md  text-base font-medium
+                            transition duration-1000 ease-in-out hover:bg-blue-500"
                             
                         onClick={()=> window.open("https://drive.google.com/drive/folders/13NDmOIl4enmsYC_t6qkjpETl4eQlmTHr?usp=sharing")}
                     >
