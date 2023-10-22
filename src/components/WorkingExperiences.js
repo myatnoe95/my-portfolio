@@ -61,7 +61,7 @@ const WorkingExperiences = () => {
                                 <div class="">
                                     <p class="font-varela text-lg font-bold text-gray-600">{position}</p>
                                     <p class="font-varela text-lg mt-2 text-gray-600">{companyName}</p>
-                                    <p class="mt-2 font-varela text-gray-600">{detail}</p>
+                                    <p class="mt-4 font-varela text-gray-600">{detail}</p>
                                 </div>  
                             </div>
                         )

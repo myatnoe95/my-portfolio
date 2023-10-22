@@ -28,7 +28,7 @@ const Skills = () => {
             />
 
           <div class="grid grid-cols-1 sm:grid-cols-2 h-200 sm:h-90 md:h-150 pb-20">
-            <div class="col-span-1 items-center justify-center mt-10 sm:mt-10 md:mt-2 pb-10 mx-10">
+            <div class="col-span-1 items-center justify-center mt-10 sm:mt-10 md:mt-2 pb-10  mx-5 sm:mx-10">
             <h2 class="text-center pb-10 text-xl text-gray-600 font-semibold font-sourceCodePro">
                 Technical Skills <i class="fas fa-heart fa-xs"></i>
             </h2>
@@ -373,7 +373,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div class="col-span-1 items-center justify-center mt-10 mb-10 sm:mt-10 md:mt-2 pb-10 mx-10">
+            <div class="col-span-1 items-center justify-center mt-10 mb-10 sm:mt-10 md:mt-2 pb-10 mx-5 sm:mx-10">
             <h2 class="text-center pb-10 text-xl text-gray-600 font-semibold font-sourceCodePro">
                 Personal and Communication Skills  <i class="fas fa-heart fa-xs"></i>
             </h2>
